@@ -1,0 +1,38 @@
+LIBRARY   		DtPC32
+DESCRIPTION		'Dectalk-PC Windows NT Dll'
+
+EXPORTS
+	dtpcInitDll
+	dtpcCloseDll
+	dtpcVolumeUp
+	dtpcVolumeDown
+	dtpcVolumeSet
+	dtpcPause
+	dtpcResume
+	dtpcFlushText
+	dtpcFlushChar
+	dtpcFlushSpeech
+	dtpcImmdVoice
+	dtpcImmdRate
+	dtpcImmdRateDelta
+	dtpcImmdPeriod
+	dtpcImmdComma
+	dtpcBuffFree
+	dtpcLastIndex
+	dtpcBuffUsed
+	dtpcFreeMem
+	dtpcIoPriority
+	dtpcDigitizedMode
+	dtpcTextMode
+	dtpcReset
+	dtpcGetStatus
+	dtpcSendChar
+	dtpcGetChar
+	dtpcSendBuff
+	dtpcGetBuff
+	dtpcSendDigitized
+	dtpcLoadModule
+	dtpcSetup
+	dtpcGetSetting
+	dtpcResumeSpc
+	DriverProc
